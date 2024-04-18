@@ -84,9 +84,10 @@ footer {
   text-align: center;
 }
 
-.card .card__nav ul li:hover {
-  background-color: hsl(0, 0%, 30%);
-  color: hsl(0, 0%, 100%);
+.card .card__nav ul li:hover,
+.card .card__nav ul li:active {
+  background-color: hsl(75, 94%, 57%);
+  color: hsl(0, 0%, 8%);
 }
 
 .card .card__nav ul li a {
@@ -95,6 +96,10 @@ footer {
   font-family: 'Inter', sans-serif;
   font-weight: 600;
   font-size: 0.7rem;
+}
+.card .card__nav ul li a:active,
+.card .card__nav ul li a:hover {
+  color: hsl(0, 0%, 8%);
 }
 
 @media screen and (max-width: 375px) {
